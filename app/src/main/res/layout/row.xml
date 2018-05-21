@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_grey_border_bottom"
+    android:padding="5dp">
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:id="@+id/Image"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp" />
+
+    <ImageView
+        android:id="@+id/remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Image"
+        android:src="@drawable/minus_circle_outline"
+        android:text="Remove" />
+
+    <TextView
+        android:id="@+id/textout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Image"
+        android:layout_toLeftOf="@id/remove"
+        android:minHeight="30dp" />
+
+</RelativeLayout>
