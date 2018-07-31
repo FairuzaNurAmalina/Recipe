@@ -235,7 +235,7 @@ public class RecepyDetail extends AppCompatActivity implements View.OnClickListe
                         messaging.setFromID(From);
                         messagings.add(messaging);
                         item.notifyDataSetChanged();
-                    } catch (Exception e) { 
+                    } catch (Exception e) {
                         Log.e("databaseError==", e.toString());
                     }
                 }

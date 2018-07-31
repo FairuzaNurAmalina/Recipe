@@ -1,8 +1,10 @@
 # Recipe
+
+#Overview
 Recipe is an native Android application that allows user to add recipes, view and search.
 Besides that, user also can rate a recipes, leave a comment and share recipe to other people.
 
-Modules:
+#Modules:
 - Authentication
 - Post Recipe
 - View Recipe
@@ -23,4 +25,3 @@ Plugin that used in Recipe :
     implementation 'de.hdodenhof:circleimageview:2.2.0'
 //Picasso ( powerful image downloading and caching library )
 implementation 'com.squareup.picasso:picasso:2.5.2'
-
